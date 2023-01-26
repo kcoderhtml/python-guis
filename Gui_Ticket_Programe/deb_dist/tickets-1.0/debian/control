@@ -1,0 +1,13 @@
+Source: tickets
+Maintainer: Kieran A. Klukas <kieran@klukas.net>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/cpbotha/nvpy
+
+Package: python3-tickets
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Demo of Booking Tickets
+
